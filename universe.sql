@@ -1,3 +1,11 @@
+--Create Database and connect to it
+------------------------------------------------------------
+psql --username=freecodecamp --dbname=postgres;
+
+CREATE DATABASE universe;
+
+\c universe
+
 -- Create tables
 CREATE TABLE galaxy (
     galaxy_id SERIAL PRIMARY KEY,
